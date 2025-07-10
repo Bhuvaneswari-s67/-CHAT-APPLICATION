@@ -11,10 +11,10 @@
  MENTOR: NEELA SANTOSH
 
 
+
 ChatTime – Real-Time WebSocket Chat Application
 
-ChatTime is a sleek and powerful real-time messaging platform built using 'Spring Boot', 'WebSockets', and a 'vanilla JavaScript frontend'. It enables instant communication with no user registration. Simply enter a username and start chatting — live, fast, and responsive.
-
+       ChatTime is a sleek and powerful real-time messaging platform built using 'Spring Boot', 'WebSockets', and a 'vanilla JavaScript frontend'. It enables instant communication with no user registration. Simply enter a username and start chatting — live, fast, and responsive.
 This project is perfect for developers looking to learn real-time communication, build collaborative tools, or create chat-enabled applications with modern web technologies.
 
 
@@ -54,4 +54,8 @@ This project is perfect for developers looking to learn real-time communication,
 License:
 
 This project is released for educational and personal use. You may extend, customize, and deploy freely with attribution.
+
+
+
+<img width="1920" height="908" alt="Image" src="https://github.com/user-attachments/assets/4314d7a1-12e9-48a3-9aea-126a2498cb78" />
 

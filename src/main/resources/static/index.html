@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title> Chat-Time Application</title>
+    <style>
+        * {
+          box-sizing: border-box;
+          margin: 0;
+          padding: 0;
+        }
+
+        body {
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          background-color: #f8f9fa;
+          color: #333;
+        }
+
+        header {
+          background-color: rgb(0, 151, 167);
+          color: white;
+          padding: 20px 40px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          flex-wrap: wrap;
+        }
+
+        header h1 {
+          font-size: 24px;
+          color:red;
+        }
+
+        nav a {
+          color: white;
+          margin-left: 20px;
+          text-decoration: none;
+          font-weight: 500;
+        }
+
+        nav a:hover{
+          color:black;
+        }
+
+
+        .main {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          justify-content: center;
+          padding: 60px 20px;
+          gap: 40px;
+        }
+
+        .main-image {
+          flex: 1;
+          max-width: 500px;
+        }
+
+        .main-image img {
+          width: 100%;
+          border-radius: 12px;
+        }
+
+        .main-content {
+          flex: 1;
+          max-width: 500px;
+        }
+
+        .main-content h1 {
+          font-size: 36px;
+          margin-bottom: 20px;
+        }
+
+        .main-content p {
+          font-weight:bold;
+          margin-bottom: 30px;
+          line-height: 1.5;
+        }
+
+        .main-content a {
+          display: inline-block;
+          padding: 14px 28px;
+          background-color: #2575fc;
+          color: white;
+          text-decoration: none;
+          font-size: 16px;
+          font-weight: bold;
+          border-radius: 8px;
+          transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .main-content a:hover {
+          background-color: #125ef5;
+          transform: scale(1.05);
+          box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .main-content a:active {
+          transform: scale(0.97);
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        fieldset {
+          margin: 1rem;
+        }
+
+        fieldset legend{
+          font-weight:bold;
+          font-size:20px;
+          color:brown;
+        }
+
+        #features p{
+          padding:2rem;
+        }
+
+        footer p a{
+          text-decoration:none;
+        }
+
+        footer p a:hover{
+          color:white;
+        }
+
+        footer {
+          background-color:rgb(0, 151, 167);
+          color: red;
+          font-size:small;
+          text-align: center;
+          padding: 20px;
+          margin-top: 50px;
+          line-height:1.5rem;
+        }
+
+        @media (max-width: 768px) {
+          .main {
+            flex-direction: column;
+            text-align: center;
+          }
+
+          .main-content h1 {
+            font-size: 28px;
+          }
+
+          header {
+            flex-direction: column;
+            text-align: center;
+          }
+
+          nav {
+            margin-top: 10px;
+          }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>ChatTime</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#features">Features</a>
+    </nav>
+</header>
+
+<section class="main">
+    <div class="main-image">
+        <img src="/images/vecteezy-chat.jpg" alt="Chat App Illustration">
+
+    </div>
+    <div class="main-content">
+        <h1> Chat Platform <br> services...</h1>
+        <p>Start chatting instantly by entering a username — no registration needed.
+            Built for live, two-way messaging.
+            clean, responsive interface that transitions smoothly from login to chat.
+        </p>
+        <a href="chatindex.html">Get Started</a>
+    </div>
+</section>
+<section id="features">
+    <fieldset>
+        <legend>Features Of ChatTime</legend>
+    <p>
+         -ChatTime is designed for simplicity, speed, and seamless communication. Start chatting instantly—no sign-up required. Just enter a username and you're in. The platform delivers real-time messaging with lightning-fast performance using modern WebSocket technology. Enjoy a clean, intuitive interface that adapts beautifully to all devices, from desktops to smartphones. Whether you're catching up with friends or collaborating with teammates, ChatTime makes every conversation smooth, secure, and effortless.
+     </p>
+    </fieldset>
+</section>
+
+<footer>
+    <p> <a href="#">Home|</a> <a href="#features">Features|</a></p>
+    <p><a href="mailto:chattime@gmail.com">chattime@gmail.com</a></p>
+    &copy; 2025 ChatTime App. All rights reserved.
+</footer>
+
+</body>
+</html>

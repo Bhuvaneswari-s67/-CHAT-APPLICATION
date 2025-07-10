@@ -56,6 +56,12 @@ License:
 This project is released for educational and personal use. You may extend, customize, and deploy freely with attribution.
 
 
+DEVELOPER NOTE:  Some early commits may display an incorrect contributor name due to a misconfigured Git identity. This has since been resolved, and all recent commits reflect the correct author (Bhuvaneswari-s67).
+
+
+
+
+
 
 <img width="1920" height="908" alt="Image" src="https://github.com/user-attachments/assets/4314d7a1-12e9-48a3-9aea-126a2498cb78" />
 
